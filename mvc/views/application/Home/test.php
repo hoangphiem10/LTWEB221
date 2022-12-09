@@ -13,7 +13,7 @@
         if($conn->query($query)){
             echo "<script type='text/javascript'>alert('dat hang thanh cong');
             localStorage.clear();
-            window.location.href = 'http://localhost/web221/';
+            window.location.href = 'http://localhost/LTWEB221/';
           </script>";
         }
         else{
