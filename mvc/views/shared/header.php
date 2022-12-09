@@ -3,7 +3,7 @@
         <div class="uk-container">
             <div class="uk-navbar-container bg-green" data-uk-navbar="">
                 <div class="uk-navbar-left">
-                    <a href="http://localhost/LTWEB221/home/index">
+                    <a href="http://localhost:8081/LTWEB221/home/index">
                         <img class="logo__img logo__img--full"
                             src="../../../LTWEB221/public/assets/img/Bach-Hoa-Xanh-Logo.png" alt="logo">
                     </a>
@@ -11,11 +11,11 @@
 
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav">
-                        <li><a href="http://localhost/LTWEB221/home/index"><span class="nav-btn home">Trang chủ</span></a></li>
-                        <li><a href="http://localhost/LTWEB221/home/catalog"><span class="nav-btn catalog">Sản Phẩm</span></a>
+                        <li><a href="http://localhost:8081/LTWEB221/home/index"><span class="nav-btn home">Trang chủ</span></a></li>
+                        <li><a href="http://localhost:8081/LTWEB221/home/catalog"><span class="nav-btn catalog">Sản Phẩm</span></a>
                         </li>
-                        <li><a href="http://localhost/LTWEB221/news/index"><span class="nav-btn news">Tin tức</span></a></li>
-                        <li><a href="http://localhost/LTWEB221/home/contact"><span class="nav-btn contact">Liên hệ</span></a></li>
+                        <li><a href="http://localhost:8081/LTWEB221/news/index"><span class="nav-btn news">Tin tức</span></a></li>
+                        <li><a href="http://localhost:8081/LTWEB221/home/contact"><span class="nav-btn contact">Liên hệ</span></a></li>
                     </ul>
                 </div>
 
@@ -27,21 +27,21 @@
                                   if (isset($_SESSION['name'])){
                                     // echo "Xin chào, " . "<span>" .  $_SESSION['name'] . "</span>";
                                   }
-                                  else echo "<a style='color: white; font-size: 16px; text-decoration: none; ' href='http://localhost/LTWEB221/User/sign_in' class='nav-btn'>Đăng nhập</a>";
+                                  else echo "<a style='color: white; font-size: 16px; text-decoration: none; ' href='http://localhost:8081/LTWEB221/User/sign_in' class='nav-btn'>Đăng nhập</a>";
                                   
                                 //   echo "<span style='margin: 0px 0px'> | </span>";
                                 ?>
                             </li>
                             <li><a href="#modal-full" data-uk-toggle><span class="text-white"
                                         data-uk-icon="search"></span></a></li>
-                            <li><a href="http://localhost/LTWEB221/home/cart">
+                            <li><a href="http://localhost:8081/LTWEB221/home/cart">
                                     <span class="text-white" data-uk-icon="cart">
                                     </span></a></li>
 
                             <?php
                               if (isset($_SESSION['id'])){
-                                echo "<li><a href='http://localhost/LTWEB221/home/account'><span class='text-white' data-uk-icon='user'></span></a></li>
-                                  <li><a href='http://localhost/LTWEB221/User/log_out'><span class='text-white' data-uk-icon='sign-out'></span></a></li>";
+                                echo "<li><a href='http://localhost:8081/LTWEB221/home/account'><span class='text-white' data-uk-icon='user'></span></a></li>
+                                  <li><a href='http://localhost:8081/LTWEB221/User/log_out'><span class='text-white' data-uk-icon='sign-out'></span></a></li>";
                               }
                             ?>
                         </ul>
@@ -69,14 +69,14 @@
                                     
                                   }
                                   else 
-                                echo "<a style='color: white; font-weight: bold' href='http://localhost/LTWEB221/User/sign_in' class='nav-btn'>Đăng nhập</a>";
+                                echo "<a style='color: white; font-weight: bold' href='http://localhost:8081/LTWEB221/User/sign_in' class='nav-btn'>Đăng nhập</a>";
                                 ?>
                             </li>
 
                             <?php
                               if (isset($_SESSION['id'])){
-                                echo "<li><a href='http://localhost/LTWEB221/home/account'><span class='text-white' data-uk-icon='user'></span></a></li>
-                                  <li><a href='http://localhost/LTWEB221/User/log_out'><span class='text-white' data-uk-icon='sign-out'></span></a></li>";
+                                echo "<li><a href='http://localhost:8081/LTWEB221/home/account'><span class='text-white' data-uk-icon='user'></span></a></li>
+                                  <li><a href='http://localhost:8081/LTWEB221/User/log_out'><span class='text-white' data-uk-icon='sign-out'></span></a></li>";
                               }
                             ?>
                         </ul>
@@ -103,33 +103,33 @@
             <hr class="uk-margin">
             <div class="uk-margin-top">
                 <ul class="uk-nav">
-                    <li><a href="http://localhost/LTWEB221/home/index">Trang chủ</a></li>
-                    <li><a href="http://localhost/LTWEB221/home/catalog">Sản phẩm</a></li>
-                    <li><a href="http://localhost/LTWEB221/News/index">Tin tức</a></li>
-                    <li><a href="http://localhost/LTWEB221/home/contact">Liên hệ</a></li>
+                    <li><a href="http://localhost:8081/LTWEB221/home/index">Trang chủ</a></li>
+                    <li><a href="http://localhost:8081/LTWEB221/home/catalog">Sản phẩm</a></li>
+                    <li><a href="http://localhost:8081/LTWEB221/News/index">Tin tức</a></li>
+                    <li><a href="http://localhost:8081/LTWEB221/home/contact">Liên hệ</a></li>
                 </ul>
             </div>
             <hr class="uk-margin">
             <ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
                 <li class="">
-                    <a href="http://localhost/LTWEB221/home/catalog">Trái cây</a>
+                    <a href="http://localhost:8081/LTWEB221/home/catalog">Trái cây</a>
                 </li>
 
                 <li class="">
-                    <a href="http://localhost/LTWEB221/home/catalog">Thịt</a>
+                    <a href="http://localhost:8081/LTWEB221/home/catalog">Thịt</a>
                 </li>
 
                 <li class="">
-                    <a href="http://localhost/LTWEB221/home/catalog">Rau củ quả</a>
+                    <a href="http://localhost:8081/LTWEB221/home/catalog">Rau củ quả</a>
                 </li>
 
                 <li class="">
-                    <a href="http://localhost/LTWEB221/home/catalog">Thủy hải sản</a>
+                    <a href="http://localhost:8081/LTWEB221/home/catalog">Thủy hải sản</a>
                 </li>
             </ul>
             <hr class="uk-margin">
             <div class="uk-margin-bottom">
-                <a href="http://localhost/LTWEB221/home/index">
+                <a href="http://localhost:8081/LTWEB221/home/index">
                     <img class="" src="../../../LTWEB221/public/assets/img/Bach-Hoa-Xanh-Logo.png" alt="logo">
                 </a>
             </div>
@@ -169,6 +169,6 @@
     if(isset($_POST['searchinput']))
     {
       echo '<script type = "text/javascript">
-        window.location.href = "http://localhost/LTWEB221/home/search/' . $_POST['searchinput'] . '"</script>';
+        window.location.href = "http://localhost:8081/LTWEB221/home/search/' . $_POST['searchinput'] . '"</script>';
     }
   ?>
